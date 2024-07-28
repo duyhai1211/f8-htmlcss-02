@@ -21,6 +21,24 @@ a {
     text-decoration: none;
 }
 
+.heading {
+    font-family: var(--font-heading);
+    color: #171100;
+    font-weight: 700;
+
+    letter-spacing: -0.116rem;
+}
+
+.heading.lv1 {
+    font-size: 5.8rem;
+    line-height: 6.8rem; /* 117.241% */
+}
+
+.heading.lv2 {
+    font-size: 3.8rem;
+    line-height: 4.8rem; /* 126.316% */
+}
+
 .btn {
     display: inline-block;
     min-width: 118px;
@@ -190,15 +208,6 @@ a {
     padding: 64px 0 0 130px;
 }
 
-.hero .heading {
-    font-family: var(--font-heading);
-    color: #171100;
-    font-size: 5.8rem;
-    font-weight: 700;
-    line-height: 6.8rem; /* 117.241% */
-    letter-spacing: -0.116rem;
-}
-
 .hero .desc {
     margin-top: 22px;
     color: #5f5b53;
@@ -257,4 +266,48 @@ a {
     font-size: 4.4rem;
     font-weight: 700;
     line-height: 5.4rem; /* 122.727% */
+}
+
+/* Popular */
+
+.popular {
+    padding: 65px 0;
+    margin-top: 135px;
+}
+
+.popular-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-top .desc {
+    margin-top: 16px;
+    width: 458px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    line-height: 3rem; /* 166.667% */
+}
+
+.popular-top .controls {
+    display: flex;
+    gap: 18px;
+}
+
+.popular-top .control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background: transparent;
+}
+
+.popular-top .control-btn:hover {
+    color: #fff;
+    background: var(--primary-color);
+    cursor: pointer;
 }
