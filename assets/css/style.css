@@ -416,8 +416,15 @@ a {
     background: #2e2100;
 }
 
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback-item {
     display: flex;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .feedback-item .avatar {
@@ -459,7 +466,7 @@ a {
 }
 
 .feedback-item .dot.active {
-    background: #FFB900;
+    background: #ffb900;
     cursor: default;
 }
 
