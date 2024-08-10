@@ -674,7 +674,7 @@ a {
     background: #2e2100;
 }
 
-footer .row {
+.footer .row {
     display: flex;
     padding-bottom: 38px;
     border-bottom: 1px solid #59554b;
@@ -684,7 +684,7 @@ footer .row {
     width: 21.6%;
 }
 
-.footer .row .column:first-chi {
+.footer .row .column:first-child {
     width: 35%;
 }
 
@@ -696,7 +696,7 @@ footer .row {
     line-height: 2.6rem; /* 185.714% */
 }
 
-.footer .social {
+.footer .socials {
     display: flex;
     gap: 18px;
     margin-top: 18px;
@@ -704,7 +704,7 @@ footer .row {
 
 .footer .title {
     display: inline-block;
-    padding: 0 48px 14px;
+    padding: 0 48px 14px 0;
     border-bottom: 1px solid #59554b;
     color: #fff;
     font-size: 1.6rem;
